@@ -7,6 +7,7 @@ Just a simple HTML UI for Ollama
 ```
 git clone git@github.com:rtcfirefly/ollama-ui.git
 cd ollama-ui
+./fetch_resources.sh
 python3 -m http.server
 
 open http://localhost:8000 # in browser
